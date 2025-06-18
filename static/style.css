@@ -1,0 +1,32 @@
+#chat-box { 
+font-family: monospace; 
+background-color: #f8f9fa;
+padding: 10px; 
+border-radius: 5px; 
+}
+.user-message { 
+text-align: right; 
+color: black;
+}
+.bot-message { 
+text-align: left; 
+color: black;
+}
+
+/* Tambahan styling untuk kode di pesan bot */
+.bot-message code {
+background-color: #e9ecef;
+color: #d63384; /* Warna mencolok untuk teks kode */
+padding: 2px 4px;
+border-radius: 4px;
+font-family: Consolas, monospace;
+}
+
+/* Tambahan styling agar kode multiline (block) juga rapi */
+.bot-message pre {
+background-color: #e9ecef;
+color: #d63384;
+padding: 8px;
+border-radius: 5px;
+overflow-x: auto;
+}
